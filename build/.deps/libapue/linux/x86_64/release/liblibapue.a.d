@@ -1,0 +1,44 @@
+{
+    files = {
+        "build/.objs/libapue/linux/x86_64/release/lib/writen.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/prmask.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/openmax.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/pathalloc.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/spipe.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/error.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/cliconn.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/sleep.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/readn.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/prexit.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/senderr.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/signalintr.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/lockreg.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/nspipe.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/ttymodes.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/recvfd.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/setfd.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/setfl.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/errorlog.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/tellwait.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/sendfd.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/signal.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/sleepus.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/servaccept.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/ptyopen.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/popen.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/bufargs.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/daemonize.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/locktest.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/ptyfork.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/servlisten.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/clrfl.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/semaph.c.o",
+        "build/.objs/libapue/linux/x86_64/release/lib/Orecvfd.c.o"
+    },
+    values = {
+        "/usr/bin/ar",
+        {
+            "-cr"
+        }
+    }
+}
