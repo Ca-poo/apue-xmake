@@ -1,25 +1,19 @@
 set_project("apue")
 
-function build(name,kind,files,deps)
+function build(name,kind,files,...)
 target(name)
     set_kind(kind)
     add_files(files)
-    add_deps(deps)
+    if(#...~=0)
+    then add_deps(...)
+    end 
 end
-
-
--- for _, dir in ipairs(os.dirs("*")) do
---     if(string.sub(dir,1,1) ~='.')
---     then
---         -- print(dir)
---         includes(dir)
---     end
--- end
 
 includes("fileio")
 includes("filedir")
 includes("lib")
 includes("intro")
+includes("sockets")
 
 
 add_includedirs("include")
