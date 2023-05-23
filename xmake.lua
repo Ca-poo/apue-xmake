@@ -14,6 +14,10 @@ includes("filedir")
 includes("lib")
 includes("intro")
 includes("sockets")
+includes("mytools")
+
+-- my little tools, not belonging to apue, but relevant
+includes("mytools")
 
 
 add_includedirs("include")
