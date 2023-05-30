@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+// #define __USE_POSIX
 
 void
 abort(void)			/* POSIX-style abort() function */

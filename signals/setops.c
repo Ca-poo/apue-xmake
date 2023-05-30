@@ -1,6 +1,6 @@
 #include	<signal.h>
 #include	<errno.h>
-
+// #include"apue.h"
 /*
  * <signal.h> usually defines NSIG to include signal number 0.
  */
